@@ -20,15 +20,15 @@
 
 -   jdk1.8.0_201
     
--   IDE : eclipse photon
+-   IDE : eclipse
     
--   DB : Oracle XE
+-   DB : Oracle XE 11g
     
 -   Server : tomcat 9.0
     
 -   **사용 기술**
     
-    `JPA` / `LOMBOK` / `Maven` / `HTML` / `CSS`
+    `JPA` / `LOMBOK` / `Maven` / `HTML` / `CSS` / `w3.css template`
     
 
 ## 🐳Database Modeling
@@ -52,12 +52,12 @@
 </div>
 </details>
     
-🚨사진이 필요한 **Beer**와 **Country** 테이블에 **img_path**를 넣어주고 반복문으로 돌려 해당하는 사진을 출력할 수 있도록 구현
+🚨사진이 필요한 **Beer**와 **Country** 테이블에 **img_path**를 넣어주고 반복문으로 활용하여 해당하는 사진을 출력할 수 있도록 구현
 
 ## 🛠Display
 
 <details>
-<summary>index.html</summary>
+<summary>main display</summary>
 <div markdown="1">       
 
 ![index](https://user-images.githubusercontent.com/44844956/132781747-c2bef578-9406-4789-8687-e145e492f3f4.png)
@@ -66,7 +66,7 @@
 </details>
 
 <details>
-<summary>continent.jsp</summary>
+<summary>continent display</summary>
 <div markdown="1">       
 
 ![continent](https://user-images.githubusercontent.com/44844956/132781752-a3750a2f-fc0f-432a-b569-4457309e31c7.png)
@@ -77,7 +77,7 @@
 </details>
 
 <details>
-<summary>country.jsp</summary>
+<summary>country display</summary>
 <div markdown="1">       
 
 ![country](https://user-images.githubusercontent.com/44844956/132781759-82030143-f361-481d-b3a0-7e9af666771b.png)
@@ -309,8 +309,6 @@ w3-third를 3개만 만들어서 이미지 크기와 상관없이 위에서 아�
 </div>
 </details>
     
-## 👍Code Review
-
 
 ## ➕Improvements
 
